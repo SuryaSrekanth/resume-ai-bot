@@ -56,6 +56,10 @@ Guidelines:
 
 # Sidebar Profile Info
 with st.sidebar:
+    if os.path.exists("profile.jpg"):
+        st.image("profile.jpg", use_container_width=True)
+    elif os.path.exists("profile.png"):
+        st.image("profile.png", use_container_width=True)
     st.title(f"👤 {resume_data.get('name')}")
     st.caption(f"🚀 {resume_data.get('title')}")
     st.markdown("---")
