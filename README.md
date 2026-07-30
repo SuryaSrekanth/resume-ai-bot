@@ -1,63 +1,70 @@
-# 🤖 Personal AI Resume Bot
+# 🤖 Personal Resume AI Chatbot
 
-An interactive, AI-driven portfolio assistant designed to let recruiters, hiring managers, and visitors chat directly with an AI persona trained on my professional background, skills, projects, and work history.
-
----
-
-## 🌟 Overview
-
-The **Personal AI Resume Bot** transforms traditional static PDFs and portfolio websites into a dynamic conversational experience. Instead of scanning through long documents, visitors can ask specific questions like:
-- *"What experience do you have with React, Node.js, and Cloud architectures?"*
-- *"Can you tell me about a project where you solved a difficult technical challenge?"*
-- *"Are you available for full-time or contract roles?"*
-
-The bot responds in real time with accurate, contextual insights backed by my verified project and work history.
+An interactive, AI-powered resume chatbot for your personal portfolio built with **Python**, **Google Gemini API**, and **Streamlit**.
 
 ---
 
-## ✨ Key Features
-
-- 💬 **Interactive Conversational Q&A**: Ask natural language questions about my resume, past roles, and engineering background.
-- 🎯 **Role & Skill Matching**: Instant responses detailing relevant project experience aligned with specific job descriptions or skill requirements.
-- 📚 **RAG-Powered Knowledge Base**: Leverages Retrieval-Augmented Generation (RAG) to source answers directly from factual career data.
-- 🎨 **Modern & Responsive Interface**: Styled with sleek dark mode aesthetics, glassmorphism, and smooth micro-animations.
-- ⚡ **Fast & Lightweight**: Built for low-latency responses and seamless web embedding on portfolio sites.
-- 🔒 **Guardrails & Privacy**: Structured system prompts ensure responses stay professional, accurate, and aligned with career goals.
+## 🌟 Features
+- **Grounding with Resume Data**: Answers recruiter questions strictly using a structured `resume_data.json` knowledge base to avoid hallucinated information.
+- **Quick Question Chips**: Suggested buttons for top skills, projects, and education.
+- **Interactive Chat UI**: Multi-turn chat interface with custom sidebar profile info.
+- **Zero Cost Hosting**: Deploys 100% free on Streamlit Community Cloud with Google Gemini's free API tier.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🚀 Quick Start (Local Setup)
 
-```
-┌───────────────────┐      ┌─────────────────────┐      ┌─────────────────────────┐
-│   User / Visitor  │ ───► │  Frontend Web UI    │ ───► │   API / Serverless      │
-└───────────────────┘      └─────────────────────┘      └─────────────────────────┘
-                                                                     │
-                                                                     ▼
-                                                        ┌─────────────────────────┐
-                                                        │ LLM + RAG Engine        │
-                                                        │ (Resume Knowledge Base) │
-                                                        └─────────────────────────┘
+### 1. Project Files Structure
+Ensure all files are placed in your project directory:
+```text
+personal-resume-bot/
+├── app.py
+├── resume_data.json
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
 ```
 
-- **Frontend**: HTML5, Modern CSS / Tailwind, JavaScript (React / Vite)
-- **AI / LLM Integration**: OpenAI / Gemini API / LangChain
-- **Knowledge Base**: Structured JSON / Markdown Resume Context
-- **Deployment**: Vercel / GitHub Pages / Cloudflare Workers
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Setup Gemini API Key
+1. Get a free API Key from [Google AI Studio](https://aistudio.google.com/).
+2. Create a file named `.env` in the project root:
+   ```env
+   GEMINI_API_KEY=your_actual_api_key_here
+   ```
+
+### 4. Run the Streamlit Application
+```bash
+streamlit run app.py
+```
+Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🚀 Planned Roadmap
+## ☁️ Free Cloud Deployment (Streamlit Community Cloud)
 
-- [x] Initial Repository & Documentation Setup
-- [ ] **Phase 1**: Structure Resume & Project Knowledge Base (JSON / Vector Store)
-- [ ] **Phase 2**: Develop API endpoints and LLM integration with RAG context
-- [ ] **Phase 3**: Build modern, responsive Chat Interface UI
-- [ ] **Phase 4**: Add suggested prompt chips (e.g., *"Top Skills"*, *"Featured Projects"*)
-- [ ] **Phase 5**: Deploy live demo to Portfolio website
+1. **Push to GitHub**:
+   Push this project to a new public GitHub repository. *(Ensure `.env` is ignored by `.gitignore`!)*
+
+2. **Deploy on Streamlit**:
+   - Go to [share.streamlit.io](https://share.streamlit.io/).
+   - Click **New app** and select your GitHub repository.
+   - Set Main file path to `app.py`.
+
+3. **Configure Secrets**:
+   - Click **Advanced settings** -> **Secrets**.
+   - Add:
+     ```toml
+     GEMINI_API_KEY = "your_actual_api_key_here"
+     ```
+   - Click **Deploy!**
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for details.
+## 📝 Customization
+Edit `resume_data.json` with your actual name, contact info, education, skills, and projects to make it your personal AI assistant.

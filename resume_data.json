@@ -1,0 +1,159 @@
+{
+  "name": "SURYA SREKANTH A",
+  "title": "Textile Quality Analyst | Python Developer | AI Enthusiast",
+  "about": "Textile Quality Analyst with 5+ years of experience in quality analysis, process optimization, and laboratory testing. Currently transitioning into Software Engineering with practical experience in Python, AI applications, and web development through personal projects. Eager to apply analytical thinking and technical skills to develop reliable and scalable software solutions.",
+  "contact": {
+    "email": "suryasrekanth@gmail.com",
+    "phone": "+91 93626 51864",
+    "linkedin": "https://linkedin.com/in/surya-srekanth",
+    "github": "https://github.com/surya-srekanth",
+    "location": "Coimbatore, Tamil Nadu, India"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science (Distance)",
+      "institution": "Bharathidasan University for Distant Education",
+      "period": "2025 – 2027 (Pursuing)",
+      "status": "In Progress"
+    },
+    {
+      "degree": "Diploma in Textile Technology",
+      "institution": "PSG Polytechnic College – Coimbatore",
+      "period": "2015 – 2018",
+      "status": "Completed"
+    },
+    {
+      "degree": "Secondary Exam (SSLC)",
+      "institution": "Holy Angels Matriculation School – Coimbatore",
+      "period": "2014 – 2015",
+      "status": "Completed"
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "C Programming",
+      "M1+ Programming"
+    ],
+    "software_tools": [
+      "Streamlit",
+      "Microsoft Office",
+      "CAD Design",
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "technical_expertise": [
+      "Uster Classimat 5 & Yarn Testing Systems (SITRA)",
+      "Flat Knitting Machine Operations (STOLL)",
+      "Textile Quality Control & Inspection"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Team Leadership & Collaboration",
+      "Project Management",
+      "Adaptability"
+    ]
+  },
+  "certifications": [
+    "Python Programming – Upskillist",
+    "AI Python for Beginners – DeepLearning.AI",
+    "AI for All: From AI Basic to GenAI Practice – NVIDIA Academy",
+    "AI Fluency Framework & Foundation – Anthropic",
+    "Introduction to Model Context Protocol – Anthropic"
+  ],
+  "projects": [
+    {
+      "title": "AI Textile Defect Assistant",
+      "tech_stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini API"
+      ],
+      "description": "Developed an AI-powered textile defect assistant using Python, Streamlit, and Gemini API to analyze yarn test data and generate actionable quality recommendations.",
+      "live_demo": "https://ai-yarn-defect-assistant.streamlit.app"
+    },
+    {
+      "title": "AI Resume Chatbot",
+      "tech_stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini API"
+      ],
+      "description": "Transforming a traditional resume into an AI-powered conversational experience for recruiters and hiring managers."
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Developed a responsive personal portfolio website to showcase projects, technical skills, certifications, and professional experience through a modern, user-friendly interface."
+    },
+    {
+      "title": "Study Comfort Properties of Tri-Layer Knitted Fabric",
+      "tech_stack": [
+        "Double Jersey Knitting Machine",
+        "Performance Testing"
+      ],
+      "description": "Developed a tri-layer sportswear fabric using bamboo, micro-denier polyester, and polypropylene, improving moisture management, thermal comfort, and overall wearer comfort."
+    },
+    {
+      "title": "Adidas Knitwear Development",
+      "tech_stack": [
+        "M1+ Programming",
+        "Flat Knitting Design"
+      ],
+      "description": "Contributed to Adidas knitwear development by assisting in flat knitting design and M1+ programming, supporting production of sweatshirts, hoodies, and knitted shoes."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Testing Assistant",
+      "company": "SITRA (South India Textile Research Association)",
+      "location": "Coimbatore, Tamil Nadu",
+      "period": "February 2020 – Present",
+      "highlights": [
+        "Performed yarn quality analysis on 100+ samples per week using Uster Classimat 5 and other Uster testing systems.",
+        "Identified yarn defects and ensured testing accuracy through strict calibration compliance.",
+        "Provided actionable recommendations that improved product quality while reducing production waste."
+      ]
+    },
+    {
+      "role": "Assistant Technician",
+      "company": "STOLL India Pvt. Ltd.",
+      "location": "Noida, Uttar Pradesh",
+      "period": "July 2018 – November 2018",
+      "highlights": [
+        "Completed training in flat knitting machine hardware assembly and M1+ programming.",
+        "Assembled, serviced, and maintained machines while developing knitting programs.",
+        "Contributed to optimized fabric production and reduced machine downtime by 15–20% through preventive maintenance."
+      ]
+    }
+  ],
+  "internships": [
+    {
+      "company": "Coimbatore Murugan Mills (NTC)",
+      "duration": "4 Weeks",
+      "details": "Gained 2 weeks of practical exposure to spinning operations from fiber preparation through autoconer processes and 2 weeks of hands-on experience in weaving operations."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Full Professional Proficiency"
+    },
+    {
+      "language": "Tamil",
+      "proficiency": "Full Professional Proficiency"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Native or Bilingual Proficiency"
+    }
+  ],
+  "interests": [
+    "Sketch Drawing",
+    "Reading Books"
+  ]
+}
