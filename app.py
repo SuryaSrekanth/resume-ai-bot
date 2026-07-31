@@ -128,7 +128,7 @@ if prompt:
             last_error = None
             
             # Try available models in order of preference
-            for model_name in ["gemini-3.6-flash"]:
+            for model_name in ["gemini-flash-latest", "gemini-3.6-flash", "gemini-3.1-flash"]:
                 try:
                     response = client.models.generate_content(
                         model=model_name,
