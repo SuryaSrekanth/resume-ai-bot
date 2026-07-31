@@ -80,6 +80,7 @@
         "Google Gemini API"
       ],
       "description": "Transforming a traditional resume into an AI-powered conversational experience for recruiters and hiring managers."
+      "live_demo": "https://resume-ai-bot.streamlit.app"
     },
     {
       "title": "Personal Portfolio Website",
