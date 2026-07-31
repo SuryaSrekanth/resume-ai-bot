@@ -1,6 +1,12 @@
 # 🤖 Personal Resume AI Chatbot
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://resume-ai-bot.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Google Gemini API](https://img.shields.io/badge/Google%20Gemini-API-orange.svg)](https://aistudio.google.com/)
+
 An interactive, AI-powered resume chatbot for your personal portfolio built with **Python**, **Google Gemini API**, and **Streamlit**.
+
+🌐 **Live Demo**: [resume-ai-bot.streamlit.app](https://resume-ai-bot.streamlit.app/)
 
 ---
 
