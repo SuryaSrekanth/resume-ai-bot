@@ -71,7 +71,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.subheader("💡 About Me")
-    st.write(resume_data.get('about'))
+    st.write(resume_data.get('summary'))
     
     st.markdown("---")
     st.caption("Built with Python, Google Gemini API & Streamlit")
