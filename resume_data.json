@@ -1,160 +1,107 @@
 {
-  "name": "SURYA SREKANTH A",
-  "title": "Textile Quality Analyst | Python Developer | AI Enthusiast",
-  "about": "Textile Quality Analyst with 5+ years of experience in quality analysis, process optimization, and laboratory testing. Currently transitioning into Software Engineering with practical experience in Python, AI applications, and web development through personal projects. Eager to apply analytical thinking and technical skills to develop reliable and scalable software solutions.",
+  "name": "Surya Srekanth",
+  "headline": "MERN Full Stack Dev | Applied AI | Python Dev | Quality Data Analyst",
   "contact": {
-    "email": "suryasrekanth@gmail.com",
+    "location": "Coimbatore, India",
     "phone": "+91 93626 51864",
-    "linkedin": "https://linkedin.com/in/surya-srekanth",
-    "github": "https://github.com/SuryaSrekanth",
-    "location": "Coimbatore, Tamil Nadu, India"
+    "email": "suryasrekanth@gmail.com",
+    "website": "suryasrekanth.vercel.app",
+    "github": null,
+    "linkedin": "https://linkedin.com/in/surya-srekanth/",
+    "x": null
   },
-  "education": [
-    {
-      "degree": "Bachelor of Science in Computer Science (Distance)",
-      "institution": "Bharathidasan University for Distant Education",
-      "period": "2025 – 2027 (Pursuing)",
-      "status": "In Progress"
-    },
-    {
-      "degree": "Diploma in Textile Technology",
-      "institution": "PSG Polytechnic College – Coimbatore",
-      "period": "2015 – 2018",
-      "status": "Completed"
-    },
-    {
-      "degree": "Secondary Exam (SSLC)",
-      "institution": "Holy Angels Matriculation School – Coimbatore",
-      "period": "2014 – 2015",
-      "status": "Completed"
-    }
-  ],
+  "summary": "Textile quality professional with 5+ years of experience in yarn testing and laboratory data analysis, now building skills as a Python and MERN full stack developer. Currently analyze test data and produce quality reports using internal software at SITRA, and have deployed two AI-powered web apps using Python, Streamlit and the Gemini API. Pursuing a B.Sc. in Computer Science; seeking a junior full stack or applied AI role where textile and industrial data knowledge is an advantage.",
   "skills": {
-    "programming_languages": [
-      "Python",
-      "C Programming",
-      "M1+ Programming"
-    ],
-    "software_tools": [
-      "Streamlit",
-      "Microsoft Office",
-      "CAD Design",
-      "Adobe Illustrator",
-      "Adobe Photoshop"
-    ],
-    "technical_expertise": [
-      "Uster Classimat 5 & Yarn Testing Systems (SITRA)",
-      "Flat Knitting Machine Operations (STOLL)",
-      "Textile Quality Control & Inspection"
-    ],
-    "soft_skills": [
-      "Problem Solving",
-      "Team Leadership & Collaboration",
-      "Project Management",
-      "Adaptability"
-    ]
+    "languages": ["Python", "JavaScript", "SQL"],
+    "mern_stack": ["MongoDB (NoSQL)", "Express.js", "React.js", "Node.js"],
+    "frontend": ["HTML", "CSS", "Tailwind CSS"],
+    "databases": ["PostgreSQL", "MySQL", "SQLite"],
+    "ai_genai": ["Gemini API", "LLM application development", "Prompt Engineering"],
+    "tools": ["Git", "GitHub", "Docker", "Supabase", "Vercel", "Render", "Postman"]
   },
-  "certifications": [
-    "Python Programming – Upskillist",
-    "AI Python for Beginners – DeepLearning.AI",
-    "AI for All: From AI Basic to GenAI Practice – NVIDIA Academy",
-    "AI Fluency Framework & Foundation – Anthropic",
-    "Introduction to Model Context Protocol – Anthropic"
+  "work_experience": [
+    {
+      "title": "Testing Assistant (Data Analysis & Reporting)",
+      "company": "SITRA (South India Textile Research Association)",
+      "location": "Coimbatore, Tamil Nadu",
+      "start_date": "Feb 2020",
+      "end_date": "Present",
+      "highlights": [
+        "Tested and analyzed yarn samples on Uster Classimat 5, identifying thick places, thin places, neps, hairiness and contamination.",
+        "Analyze test results and generate quality reports using SITRA's internal reporting software, turning raw data into defect findings that support corrective action and reduce material waste.",
+        "Follow calibration schedules and laboratory protocols to keep test results accurate and repeatable."
+      ]
+    },
+    {
+      "title": "Assistant Technician",
+      "company": "STOLL India Pvt. Ltd.",
+      "location": "Noida, Uttar Pradesh",
+      "start_date": "Jul 2018",
+      "end_date": "Nov 2018",
+      "highlights": [
+        "Assembled, serviced and maintained flat knitting machines for reliable production.",
+        "Performed preventive maintenance that contributed to a 15–20% reduction in machine downtime.",
+        "Developed knitting programs in M1+ software for fabric development."
+      ]
+    }
   ],
   "projects": [
     {
-      "title": "AI Textile Defect Assistant",
-      "tech_stack": [
-        "Python",
-        "Streamlit",
-        "Google Gemini API"
-      ],
-      "description": "Developed an AI-powered textile defect assistant using Python, Streamlit, and Gemini API to analyze yarn test data and generate actionable quality recommendations.",
-      "live_demo": "https://ai-yarn-defect-assistant.streamlit.app"
-    },
-    {
-      "title": "AI Resume Chatbot",
-      "tech_stack": [
-        "Python",
-        "Streamlit",
-        "Google Gemini API"
-      ],
-      "description": "Transforming a traditional resume into an AI-powered conversational experience for recruiters and hiring managers.",
-      "live_demo": "https://resume-ai-bot.streamlit.app"
-    },
-    {
-      "title": "Personal Portfolio Website",
-      "tech_stack": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "description": "Developed a responsive personal portfolio website to showcase projects, technical skills, certifications, and professional experience through a modern, user-friendly interface."
-    },
-    {
-      "title": "Study Comfort Properties of Tri-Layer Knitted Fabric",
-      "tech_stack": [
-        "Double Jersey Knitting Machine",
-        "Performance Testing"
-      ],
-      "description": "Developed a tri-layer sportswear fabric using bamboo, micro-denier polyester, and polypropylene, improving moisture management, thermal comfort, and overall wearer comfort."
-    },
-    {
-      "title": "Adidas Knitwear Development",
-      "tech_stack": [
-        "M1+ Programming",
-        "Flat Knitting Design"
-      ],
-      "description": "Contributed to Adidas knitwear development by assisting in flat knitting design and M1+ programming, supporting production of sweatshirts, hoodies, and knitted shoes."
-    }
-  ],
-  "experience": [
-    {
-      "role": "Testing Assistant",
-      "company": "SITRA (South India Textile Research Association)",
-      "location": "Coimbatore, Tamil Nadu",
-      "period": "February 2020 – Present",
+      "name": "LostNest (Lost & Found Platform)",
+      "tech": ["MongoDB", "Express", "React", "Node.js"],
+      "live_demo": null,
+      "github": null,
       "highlights": [
-        "Performed yarn quality analysis on 100+ samples per week using Uster Classimat 5 and other Uster testing systems.",
-        "Identified yarn defects and ensured testing accuracy through strict calibration compliance.",
-        "Provided actionable recommendations that improved product quality while reducing production waste."
+        "Built a full-stack lost and found app with JWT login, bcrypt hashing and 10 REST API endpoints.",
+        "Added ownership-proof claims and a MongoDB TTL auto-purge; deployed on Vercel, Render and Atlas."
       ]
     },
     {
-      "role": "Assistant Technician",
-      "company": "STOLL India Pvt. Ltd.",
-      "location": "Noida, Uttar Pradesh",
-      "period": "July 2018 – November 2018",
+      "name": "AI Textile Defect Assistant",
+      "tech": ["Python", "Streamlit", "Gemini API", "Docker"],
+      "live_demo": null,
+      "github": null,
       "highlights": [
-        "Completed training in flat knitting machine hardware assembly and M1+ programming.",
-        "Assembled, serviced, and maintained machines while developing knitting programs.",
-        "Contributed to optimized fabric production and reduced machine downtime by 15–20% through preventive maintenance."
+        "Built an app that turns yarn test data into a quality rating, root causes, fixes and a PDF report.",
+        "Designed around real lab workflows from 5+ years of yarn quality testing."
+      ]
+    },
+    {
+      "name": "AI Resume Chatbot",
+      "tech": ["Python", "Streamlit", "LLM API"],
+      "live_demo": null,
+      "github": null,
+      "highlights": [
+        "Built and deployed a chatbot that lets recruiters query resume details conversationally and get context-aware answers."
       ]
     }
   ],
-  "internships": [
+  "education": [
     {
-      "company": "Coimbatore Murugan Mills (NTC)",
-      "duration": "4 Weeks",
-      "details": "Gained 2 weeks of practical exposure to spinning operations from fiber preparation through autoconer processes and 2 weeks of hands-on experience in weaving operations."
+      "degree": "B.Sc. Computer Science (Distance)",
+      "institution": "Bharathidasan University for Distance Education",
+      "start_year": 2025,
+      "end_year": 2027,
+      "status": "expected"
+    },
+    {
+      "degree": "Diploma in Textile Technology",
+      "institution": "PSG Polytechnic College, Coimbatore",
+      "start_year": 2015,
+      "end_year": 2018,
+      "status": "completed"
     }
+  ],
+  "certifications": [
+    { "name": "Python Programming", "issuer": "Upskillist" },
+    { "name": "AI Python for Beginners", "issuer": "DeepLearning.AI" },
+    { "name": "AI for All: From AI Basics to GenAI Practice", "issuer": "NVIDIA Academy" },
+    { "name": "AI Fluency Framework & Foundation", "issuer": "Anthropic" },
+    { "name": "Introduction to Model Context Protocol", "issuer": "Anthropic" }
   ],
   "languages": [
-    {
-      "language": "English",
-      "proficiency": "Full Professional Proficiency"
-    },
-    {
-      "language": "Tamil",
-      "proficiency": "Full Professional Proficiency"
-    },
-    {
-      "language": "Hindi",
-      "proficiency": "Native or Bilingual Proficiency"
-    }
-  ],
-  "interests": [
-    "Sketch Drawing",
-    "Reading Books"
+    { "language": "English", "proficiency": "Full Professional" },
+    { "language": "Tamil", "proficiency": "Full Professional" },
+    { "language": "Hindi", "proficiency": "Native/Bilingual" }
   ]
 }
