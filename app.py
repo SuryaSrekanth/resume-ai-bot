@@ -61,7 +61,7 @@ with st.sidebar:
     elif os.path.exists("profile.png"):
         st.image("profile.png", use_container_width=True)
     st.title(f"👤 {resume_data.get('name')}")
-    st.caption(f"🚀 {resume_data.get("Mern stack Dev | Python Dev | Applied AI")}")
+    st.caption(f"🚀 {resume_data.get('headline')}")
     st.markdown("---")
     st.subheader("📫 Contact Details")
     st.markdown(f"- 📧 **Email**: [{resume_data['contact']['email']}](mailto:{resume_data['contact']['email']})")
